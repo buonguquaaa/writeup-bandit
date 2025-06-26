@@ -5,3 +5,4 @@ Level này ta cần login được vào ssh server với host là bandit.labs.ov
 
 ssh bandit0@bandit.labs.overthewire.org -p 2220 với pass là bandit0
 
+![image](https://github.com/user-attachments/assets/c57b6a71-efd2-4865-b78c-60cc67a44b14)
