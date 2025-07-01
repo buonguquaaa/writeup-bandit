@@ -39,7 +39,43 @@ Pass: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 Level Goal: The password for the next level is stored in a file called spaces in this filename located in the home directory
 
+thấy môt file có tên là "spaces in this filename". đọc thử bằng cat không được nên ta phải dùng " \ " để xóa dấu cách
+
+![image](https://github.com/user-attachments/assets/9990d37c-5a7b-4ec8-ad81-5eb4edd32ebf)
+
+Pass: MNk8KNH3Usiio41PRUEoDFPqfxLPlSmx
 
 
-Level Goal: The password for the next level is stored in a file called spaces in this filename located in the home directory
+#Level 3 -> Level 4
 
+Level Goal: The password for the next level is stored in a hidden file in the inhere directory.
+
+Có một thư mục tên là "inhere". Để list ra tất cả các file trong thư mục hiện tại sử dụng lệnh ls -a và đọc nó 
+
+![image](https://github.com/user-attachments/assets/219a13e7-344f-45b3-9291-b9649643fe43)
+
+Pass: 2WmrDFRmJIq3IPxneAaMGhap0pFhF3NJ
+
+
+#Level 4 -> Level 5
+
+Level Goal: The password for the next level is stored in the only human-readable file in the inhere directory. Tip: if your terminal is messed up, try the “reset” command.
+
+List ra các file trong thư mục inhere. Dùng file để check thuộc tính của các file. Thấy file 7 khả nghi nhất và ra
+
+![image](https://github.com/user-attachments/assets/b0e2a3a7-18a6-4cc9-b5ce-9b61f43004f1)
+
+Pass: 4oQYVPkxZOOEOO5pTW81FB8j8lxXGUQw
+
+
+#Level 5 -> Level 6
+
+Level Goal: The password for the next level is stored in a file somewhere under the inhere directory and has all of the following properties:
+
+human-readable
+
+1033 bytes in size
+
+not executable
+
+Ta dùng command find với các option như sau để thỏa yêu cầu của đề
