@@ -26,8 +26,8 @@ Pass: ZjLjTmM6FvvyRnrb2rfNWOZOTa6ip5If
 
 Level Goal: The password for the next level is stored in a file called - located in the home directory
 
-Login lại ssh server với user là bandit1 và password lấy từ level trước, sẽ có một file là -
-Vì tên file đặc biệt nên không thể mở bằng cách thông thường vì cat hiểu rằng đọc từ bàn phím (standard input)
+Login lại ssh server với user là bandit1 và password lấy từ level trước, sẽ có một file là -.
+Vì tên file đặc biệt nên không thể mở bằng cách thông thường vì cat hiểu rằng đọc từ bàn phím (standard input).
 Đọc file có tên đúng là "-" trong thư mục hiện tại
 
 ![image](https://github.com/user-attachments/assets/9b83dc8e-c452-4a63-b495-11dadb4f8fed)
@@ -36,6 +36,10 @@ Pass: 263JGJPfgU6LtdEvgfWU1XP5yac29mFx
 
 
 #Level 2 -> Level 3
+
+Level Goal: The password for the next level is stored in a file called spaces in this filename located in the home directory
+
+
 
 Level Goal: The password for the next level is stored in a file called spaces in this filename located in the home directory
 
